@@ -15,6 +15,3 @@ FFG
 
 
 GFF
-
-
-FFG
