@@ -4,3 +4,9 @@ Git version
 
 Git GO
 Git YES
+
+XZF GO
+XZF YES
+
+XZF P
+XZF S
