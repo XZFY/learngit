@@ -18,6 +18,7 @@ public class Userservice {
 		for(User user : list)
 		{
 			System.out.println(user.getId()+user.getMobile()+user.getUsername());
+			System.out.println(user.getId()+user.getMobile()+user.getUsername());
 		}
 	}
 }
