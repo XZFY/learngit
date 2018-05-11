@@ -48,7 +48,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <img src="${pageContext.request.contextPath }/images/img.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
-                <span>Welcome,</span>
+                <span>欢迎登陆</span>
                 <h2>${loginUser.devName }</h2>
               </div>
             </div>
@@ -59,12 +59,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             <!-- sidebar menu -->
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
-                <h3>General</h3>
+                <h3>function</h3>
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> 设置<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
+                      <li><a href="${pageContext.request.contextPath }/dev/index">便民服务</a></li>
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>

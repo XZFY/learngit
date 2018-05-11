@@ -19,4 +19,11 @@ public class AppInfoController {
 	public String showAppList(HttpServletRequest request){
 		return "devAppList";
 	}
+	
+	
+	@RequestMapping(value="dev/index")
+	public String showgo()
+	{
+		return "index";
+	}
 }

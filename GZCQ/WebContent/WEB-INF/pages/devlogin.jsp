@@ -14,7 +14,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>开发者用户登录界面</title>
+    <title>用户登录界面</title>
 
     <!-- Bootstrap -->
     <link href="<%=path %>/css/bootstrap.min.css" rel="stylesheet">
@@ -58,7 +58,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <br />
 
                 <div>
-                  <h1><i class="fa fa-leaf"></i> GZCQ</h1>
+                  <h1><i class="fa fa-leaf"></i> 广州传奇互联网服务有限公司</h1>
                   <p>©2018 All Rights Reserved. 广州传奇谢泽锋</p>
                 </div>
               </div>
