@@ -1,11 +1,11 @@
 package com.gzcq.entity;
 
 public class DevUser {
-	private int id;
-	private String devCode;
-	private String devName;
-	private String devPassword;
-	private String devEmail;
+	private int id; //用户ID
+	private String devCode; //用户账号
+	private String devName; //用户名
+	private String devPassword;//用户密码
+	private String devEmail;//用户邮件
 	private String devInfo;
 	public int getId() {
 		return id;

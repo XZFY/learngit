@@ -63,11 +63,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> 设置<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/index">便民服务</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">查看数据</a></li>
+                      <li><a href="${pageContext.request.contextPath }/dev/index">添加数据</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -76,10 +73,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 用户管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -88,10 +81,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 银行管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -100,10 +89,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 信用卡管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -111,11 +96,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> 信贷管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>   
                     </ul>
                   </li>
                 </ul>
@@ -124,10 +105,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 门户管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -136,10 +113,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 插件管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -148,10 +121,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 资源管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -159,11 +128,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> 订单管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>        
                     </ul>
                   </li>
                 </ul>
@@ -172,10 +137,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 商品管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
+
                     </ul>
                   </li>
                 </ul>
@@ -184,10 +146,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 支付方式 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -195,11 +153,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> 办卡管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>               
                     </ul>
                   </li>
                 </ul>
@@ -208,10 +162,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 用户贷款 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -220,10 +170,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 抽奖活动 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -231,11 +177,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> 积分商城 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>                 
                     </ul>
                   </li>
                 </ul>
@@ -243,11 +185,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> 视频VIP <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>                     
                     </ul>
                   </li>
                 </ul>
@@ -256,10 +194,62 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <li><a><i class="fa fa-home"></i> 展业工具 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">2</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">3</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">4</a></li>
-                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">5</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> 签约活动 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> 保险 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> 违章代缴 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> 无卡支付 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> 智能精养卡 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> 代还设置 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> 用户消息推送 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="${pageContext.request.contextPath }/dev/appinfoList">1</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -314,12 +304,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                   </ul>
                 </li>
-
-                <li role="presentation" class="dropdown">
-                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
-                    <i class="fa fa-envelope-o"></i>
-                    <span class="badge bg-green">6</span>
-                  </a>
                   <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                     <li>
                       <a>

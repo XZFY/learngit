@@ -1,7 +1,7 @@
 <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Appinfo应用管理平台由XXX公司开发 
+            广州传奇互联有限公司
           </div>
           <div class="clearfix"></div>
         </footer>

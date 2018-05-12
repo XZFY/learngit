@@ -1,4 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="inc/top.jsp" %>
         <!-- page content -->
         <div class="right_col" role="main">
@@ -7,10 +8,7 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
-                  <div class="x_title">
-                    <h2>应用列表 </h2>
-                    <div class="clearfix"></div>
-                             
+                    <h1>添加成功</h1>
                   </div>
                 </div>
               </div>

@@ -1,5 +1,7 @@
 package com.gzcq.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,6 +19,8 @@ public class DevUserServiceImpl implements DevUserService {
 	public void setUserDAO(DevUserDAO userDAO) {
 		this.userDAO = userDAO;
 	}
+	
+	//查询登陆对象
 	@Override
 	@Transactional(readOnly=true)
 	public DevUser loginUser(String devCode,String devPassword) {
@@ -30,6 +34,21 @@ public class DevUserServiceImpl implements DevUserService {
 				return null;
 			}
 		}
+	}
+	
+	//查看用户全部数据
+	@Override
+	public List<DevUser> findAll() {
+		// TODO Auto-generated method stub
+		return userDAO.findAll();
+	}
+	
+	
+	//添加用户数据
+	@Override
+	public int addUser(DevUser devuser) {
+		// TODO Auto-generated method stub
+		return userDAO.addUser(devuser);
 	}
 
 }

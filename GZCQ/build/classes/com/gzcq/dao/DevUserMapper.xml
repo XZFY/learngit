@@ -3,8 +3,22 @@
 PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.gzcq.dao.DevUserDAO">
+
+  <!-- 查询用户登陆 -->
   <select id="loginUser" parameterType="String" resultType="DevUser">
   	SELECT id,devCode,devName,devPassword,devEmail
   	,devInfo FROM dev_user WHERE devCode = #{devCode}
   </select>
+  
+  <!-- 查询用户记录 -->
+ <select id="findAll" resultType="DevUser">
+    SELECT `id`,`devCode`,`devName` FROM `dev_user`;
+ </select>
+ 
+ 
+ <!-- 添加数据 -->
+ <insert id="addUser" parameterType="DevUser">
+  INSERT INTO `dev_user`(`devCode`,`devName`,`devPassword`,`devEmail`) VALUES
+  (#{devCode},#{devName},#{devPassword},#{devEmail});
+ </insert>
 </mapper>
